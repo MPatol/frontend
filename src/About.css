@@ -1,0 +1,14 @@
+.about-container {
+    padding: 50px 20px; /* Adds padding to the container */
+    background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+.about-header {
+    font-weight: Normal; /* Set font weight to normal */
+    color: #2a2f35; /* Optional: Set a color for the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.about-container p {
+    color: #4a535a; /* Muted text color for the lead paragraph */
+}

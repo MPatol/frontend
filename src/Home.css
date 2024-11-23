@@ -1,0 +1,31 @@
+.home-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 15px; /* Top and bottom padding */
+  }
+  
+  h1 {
+    color: #2471a3; /* Header color */
+    margin-bottom: 20px; /* Spacing below the header */
+  }
+  
+  p.lead {
+    color: #555; /* Text color for the lead paragraph */
+    font-size: 1.25rem; /* Slightly larger font size */
+  }
+  
+  .card {
+    border: none; /* Remove card border */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  .card-title {
+    color: #2471a3; /* Color for card titles */
+  }
+  
+  button {
+    text-decoration: none; /* Remove underline from button links */
+  }

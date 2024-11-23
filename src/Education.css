@@ -1,0 +1,40 @@
+.education-container {
+    padding: 50px 20px; /* Adds padding to the container */
+    background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+.education-container h1 {
+    color: #396ea3; /* Dark gray color for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.education-container .lead {
+    color: #6c757d; /* Muted text color for the lead paragraph */
+    margin-bottom: 40px; /* Space below the lead paragraph */
+}
+
+.card {
+    border: 1px solid #dee2e6; /* Light border around cards */
+    border-radius: 0.25rem; /* Rounded corners for cards */
+    transition: transform 0.2s; /* Smooth scaling transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale the card on hover */
+}
+
+.card-title {
+    color: #007bff; /* Primary color for card titles */
+    font-weight: bold; /* Bold font weight for titles */
+}
+
+.card-text {
+    color: #495057; /* Darker text color for card content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .education-container {
+        padding: 30px 10px; /* Adjust padding for smaller screens */
+    }
+}

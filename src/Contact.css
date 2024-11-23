@@ -1,0 +1,30 @@
+.contact-container {
+    padding: 50px 20px; /* Adds padding to the container */
+    background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+.contact-container h1 {
+    color: #396ea3; /* Dark gray color for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-container .lead {
+    color: #6c757d; /* Muted text color for the lead paragraph */
+    margin-bottom: 40px; /* Space below the lead paragraph */
+}
+
+.contact-container h5 {
+    margin-top: 20px; /* Space above subheadings */
+    color: #007bff; /* Blue color for the subheadings */
+}
+
+.contact-container p {
+    color: #495057; /* Darker text color for paragraph content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 30px 10px; /* Adjust padding for smaller screens */
+    }
+}
